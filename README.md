@@ -26,6 +26,9 @@ This project implements a fully working **Signup** and **Login** page for a web 
 - **Backend**: server.js(Node package manager)
 - **Database**: Microsoft Excel Spreadsheet (`SignupData.xlsx`)(`LoginData.xlsx`)
 
+## Credits..
+Chat-GPT : only for backend(Node js) and CSS for styling a bit
+
 ### How It Works
 
 1. **Signup Process**: 
