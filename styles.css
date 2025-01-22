@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, blue, yellow);
+    height: 100vh; /* Use exact height of viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Remove padding */
+    box-sizing: border-box;
+}
+
+.form-box {
+    margin-top: 10vh; /* Add 10% space on top */
+    margin-bottom: 10vh; /* Add 10% space on bottom */
+    max-height: 80vh; /* Ensure form fits within available space */
+    overflow: hidden; /* Prevent content overflow */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center input boxes */
+}
+
+form input {
+    width: 90%;
+    padding: 10px;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.row input {
+    width: 45%;
+}
+
+.small-input {
+    width: 30%;
+}
+
+button {
+    width: 90%;
+    padding: 10px;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 5px;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.google-btn {
+    background: #4285F4;
+}
+
+.github-btn {
+    background: #24292E;
+}
+
+button:hover {
+    opacity: 0.9;
+}

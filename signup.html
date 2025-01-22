@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-box">
+        <h2>Signup</h2>
+        <form id="signup-form">
+            <div class="row">
+                <input type="text" name="first-name" placeholder="First Name" required>
+                <input type="text" name="last-name" placeholder="Last Name" required>
+            </div>
+            <div class="row">
+                <input type="number" name="age" placeholder="Age" required class="small-input">
+            </div>
+            <div class="row">
+                <input type="email" name="email" placeholder="Email ID" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+            </div>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Create Password" required>
+            <input type="password" name="confirm-password" placeholder="Confirm Password" required>
+            <button type="button" class="google-btn">Signup with Google</button>
+            <button type="button" class="github-btn">Signup with GitHub</button>
+            <button type="submit">Signup</button>
+        </form>
+    </div>
+</body>
+</html>
