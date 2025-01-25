@@ -13,8 +13,9 @@ body {
 .form-box {
     margin-top: 10vh; /* Add 10% space on top */
     margin-bottom: 10vh; /* Add 10% space on bottom */
-    max-height: 80vh; /* Ensure form fits within available space */
-    overflow: hidden; /* Prevent content overflow */
+    max-height: unset; /* Ensure form fits within available space */
+    overflow-y: auto;
+    padding-bottom: 20px; /* Adjust padding as needed */
 }
 
 h2 {
