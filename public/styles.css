@@ -1,6 +1,11 @@
+/* =============================== */
+/* Updated styles.css (ITIM Font & UI Fixes) */
+/* =============================== */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Itim', cursive;
     background: linear-gradient(135deg, #1e3c72, #2a5298);
     height: 100vh;
     display: flex;
@@ -48,13 +53,4 @@ button:hover {
     display: block;
     color: #007BFF;
     text-decoration: none;
-}
-
-/* OTP Input */
-.otp-input {
-    width: 60%;
-    padding: 10px;
-    margin-top: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 }
