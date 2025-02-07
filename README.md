@@ -4,14 +4,18 @@
 
 This project implements a fully working **Signup** and **Login** page for a web application. The user data (f_name,l_name,age,phone number,username, email, and password(encrypted & decrypted) is stored in a **Microsoft Excel spreadsheet** for simplicity and ease of management. The application allows new users to register and existing users to log in. The backend functionality is designed to handle the saving of user data securely and check for user credentials during login.
 
-## UNDER DEVELOPMENT..!!
+## UNDER CONSTRUCTION..!!
 ![image](https://github.com/user-attachments/assets/018a9502-35af-4c34-a61d-4b3faccc66f5)
 ![image](https://github.com/user-attachments/assets/5fa0026c-e4f1-4d2f-b0c3-a27fba2e23c4)
 
 ## Pending Tasks..
 1. Signup with google & Signup with Github..
-2. Connecting signup and login pages.
-3. Conditional formatting in excel spreadsheets.
+2. CSS styling
+3. removing LoginData.xlsx and keep whole data in SignupData.xlsx.
+4. OTP system implementation
+5. Updating Login page(showing invaild username/pass with correct credentials too
+6. Conditional formatting in excel spreadsheets.
+7. Updating forgot password
 
 ### Features
 
